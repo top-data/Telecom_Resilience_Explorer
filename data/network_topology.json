@@ -1,0 +1,42 @@
+[
+  {
+    "site": "Sydney Data Centre",
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "sovereign": ["BGP", "DNS", "NTP"],
+    "supporting": ["AAA", "LicenseMgmt"],
+    "dependencies": ["Melbourne Hub", "Brisbane Core"]
+  },
+  {
+    "site": "Melbourne Hub",
+    "lat": -37.8136,
+    "lon": 144.9631,
+    "sovereign": ["BGP", "DNS"],
+    "supporting": ["AAA"],
+    "dependencies": ["Adelaide Node"]
+  },
+  {
+    "site": "Brisbane Core",
+    "lat": -27.4698,
+    "lon": 153.0251,
+    "sovereign": ["DNS", "NTP"],
+    "supporting": ["LicenseMgmt"],
+    "dependencies": []
+  },
+  {
+    "site": "Perth Edge",
+    "lat": -31.9505,
+    "lon": 115.8605,
+    "sovereign": ["BGP"],
+    "supporting": ["AAA"],
+    "dependencies": ["Sydney Data Centre"]
+  },
+  {
+    "site": "Adelaide Node",
+    "lat": -34.9285,
+    "lon": 138.6007,
+    "sovereign": ["NTP"],
+    "supporting": [],
+    "dependencies": []
+  }
+]
