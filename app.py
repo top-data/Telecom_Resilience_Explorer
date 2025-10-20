@@ -5,7 +5,7 @@ from utils.simulation import simulate_failure
 import json
 import pandas as pd
 
-st.set_page_config(layout="wide", page_title="Telecom Resilience Explorer")
+st.set_page_config(layout="wide", page_title="Network Resilience Explorer (NRE)")
 
 @st.cache_data
 def load_topology(path="data/network_topology.json"):
