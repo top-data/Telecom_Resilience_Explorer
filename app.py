@@ -21,7 +21,7 @@ failure_type = st.sidebar.selectbox("Failure Type", ["DNS", "BGP", "NTP", "AAA",
 impact = st.sidebar.radio("Impact Scope", ["Local", "Regional", "National"])
 duration = st.sidebar.slider("Duration (hours)", 1, 24, 6)
 
-st.header("Telecom Resilience Explorer (NRE) — Australia")
+st.header("Network Resilience Explorer (NRE) — Australia")
 
 col1, col2 = st.columns((3,1))
 
