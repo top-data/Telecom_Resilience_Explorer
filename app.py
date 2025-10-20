@@ -5,7 +5,7 @@ from utils.simulation import simulate_failure
 import json
 import pandas as pd
 
-st.set_page_config(layout="wide", page_title="Network Resilience Explorer (NRE)")
+st.set_page_config(layout="wide", page_title="Network Resilience Explorer")
 
 @st.cache_data
 def load_topology(path="data/network_topology.json"):
@@ -21,7 +21,7 @@ failure_type = st.sidebar.selectbox("Failure Type", ["DNS", "BGP", "NTP", "AAA",
 impact = st.sidebar.radio("Impact Scope", ["Local", "Regional", "National"])
 duration = st.sidebar.slider("Duration (hours)", 1, 24, 6)
 
-st.header("Telecom Resilience Explorer — Australia")
+st.header("Telecom Resilience Explorer (NRE) — Australia")
 
 col1, col2 = st.columns((3,1))
 
