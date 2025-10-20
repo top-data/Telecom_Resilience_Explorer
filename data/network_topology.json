@@ -38,5 +38,77 @@
     "sovereign": ["NTP"],
     "supporting": [],
     "dependencies": []
+  },
+  {
+    "site": "Canberra Exchange",
+    "lat": -35.2809,
+    "lon": 149.1300,
+    "sovereign": ["DNS", "NTP"],
+    "supporting": ["AAA"],
+    "dependencies": ["Sydney Data Centre", "Melbourne Hub"]
+  },
+  {
+    "site": "Hobart Node",
+    "lat": -42.8821,
+    "lon": 147.3272,
+    "sovereign": ["NTP"],
+    "supporting": ["LicenseMgmt"],
+    "dependencies": ["Melbourne Hub"]
+  },
+  {
+    "site": "Darwin Gateway",
+    "lat": -12.4634,
+    "lon": 130.8456,
+    "sovereign": ["BGP", "DNS"],
+    "supporting": ["AAA"],
+    "dependencies": ["Perth Edge"]
+  },
+  {
+    "site": "Gold Coast Edge",
+    "lat": -28.0167,
+    "lon": 153.4000,
+    "sovereign": ["BGP"],
+    "supporting": ["LicenseMgmt"],
+    "dependencies": ["Brisbane Core"]
+  },
+  {
+    "site": "Newcastle Relay",
+    "lat": -32.9283,
+    "lon": 151.7817,
+    "sovereign": ["DNS"],
+    "supporting": ["AAA"],
+    "dependencies": ["Sydney Data Centre"]
+  },
+  {
+    "site": "Townsville Hub",
+    "lat": -19.2589,
+    "lon": 146.8169,
+    "sovereign": ["DNS", "NTP"],
+    "supporting": ["LicenseMgmt"],
+    "dependencies": ["Brisbane Core"]
+  },
+  {
+    "site": "Cairns Node",
+    "lat": -16.9186,
+    "lon": 145.7781,
+    "sovereign": ["NTP"],
+    "supporting": [],
+    "dependencies": ["Townsville Hub"]
+  },
+  {
+    "site": "Launceston Node",
+    "lat": -41.4332,
+    "lon": 147.1441,
+    "sovereign": ["DNS"],
+    "supporting": [],
+    "dependencies": ["Hobart Node"]
+  },
+  {
+    "site": "Alice Springs Relay",
+    "lat": -23.6980,
+    "lon": 133.8807,
+    "sovereign": ["BGP"],
+    "supporting": ["AAA"],
+    "dependencies": ["Darwin Gateway", "Adelaide Node"]
   }
 ]
