@@ -5,7 +5,7 @@
     "lon": 151.2093,
     "sovereign": ["BGP", "DNS", "NTP"],
     "supporting": ["AAA", "LicenseMgmt"],
-    "dependencies": ["Melbourne Hub", "Brisbane Core"]
+    "dependencies": ["Melbourne Hub", "Brisbane Core", "Newcastle Relay"]
   },
   {
     "site": "Melbourne Hub",
@@ -13,7 +13,7 @@
     "lon": 144.9631,
     "sovereign": ["BGP", "DNS"],
     "supporting": ["AAA"],
-    "dependencies": ["Adelaide Node"]
+    "dependencies": ["Adelaide Node", "Canberra Exchange", "Hobart Node"]
   },
   {
     "site": "Brisbane Core",
@@ -21,7 +21,7 @@
     "lon": 153.0251,
     "sovereign": ["DNS", "NTP"],
     "supporting": ["LicenseMgmt"],
-    "dependencies": []
+    "dependencies": ["Gold Coast Edge", "Townsville Hub", "Sydney Data Centre"]
   },
   {
     "site": "Perth Edge",
@@ -29,7 +29,7 @@
     "lon": 115.8605,
     "sovereign": ["BGP"],
     "supporting": ["AAA"],
-    "dependencies": ["Sydney Data Centre"]
+    "dependencies": ["Sydney Data Centre", "Alice Springs Relay", "Darwin Gateway"]
   },
   {
     "site": "Adelaide Node",
@@ -37,7 +37,7 @@
     "lon": 138.6007,
     "sovereign": ["NTP"],
     "supporting": [],
-    "dependencies": []
+    "dependencies": ["Perth Edge", "Melbourne Hub", "Alice Springs Relay"]
   },
   {
     "site": "Canberra Exchange",
@@ -53,7 +53,7 @@
     "lon": 147.3272,
     "sovereign": ["NTP"],
     "supporting": ["LicenseMgmt"],
-    "dependencies": ["Melbourne Hub"]
+    "dependencies": ["Melbourne Hub", "Launceston Node"]
   },
   {
     "site": "Darwin Gateway",
@@ -61,7 +61,7 @@
     "lon": 130.8456,
     "sovereign": ["BGP", "DNS"],
     "supporting": ["AAA"],
-    "dependencies": ["Perth Edge"]
+    "dependencies": ["Perth Edge", "Alice Springs Relay"]
   },
   {
     "site": "Gold Coast Edge",
@@ -69,7 +69,7 @@
     "lon": 153.4000,
     "sovereign": ["BGP"],
     "supporting": ["LicenseMgmt"],
-    "dependencies": ["Brisbane Core"]
+    "dependencies": ["Brisbane Core", "Sydney Data Centre"]
   },
   {
     "site": "Newcastle Relay",
@@ -77,7 +77,7 @@
     "lon": 151.7817,
     "sovereign": ["DNS"],
     "supporting": ["AAA"],
-    "dependencies": ["Sydney Data Centre"]
+    "dependencies": ["Sydney Data Centre", "Brisbane Core"]
   },
   {
     "site": "Townsville Hub",
@@ -85,7 +85,7 @@
     "lon": 146.8169,
     "sovereign": ["DNS", "NTP"],
     "supporting": ["LicenseMgmt"],
-    "dependencies": ["Brisbane Core"]
+    "dependencies": ["Brisbane Core", "Cairns Node"]
   },
   {
     "site": "Cairns Node",
@@ -109,6 +109,6 @@
     "lon": 133.8807,
     "sovereign": ["BGP"],
     "supporting": ["AAA"],
-    "dependencies": ["Darwin Gateway", "Adelaide Node"]
+    "dependencies": ["Darwin Gateway", "Adelaide Node", "Perth Edge"]
   }
 ]
